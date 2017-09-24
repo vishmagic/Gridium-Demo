@@ -1,0 +1,480 @@
+/* style.css */
+
+/* Setting up base values and base layout of the page */
+body {
+	background-color: #FBF9F9;
+}
+
+h1 {
+	font-family: 'Josefin Slab',Sans-serif;
+	font-size: 36px;
+	color: white;
+	text-transform: capitalize;
+}
+
+h2 {
+	font-family: 'Josefin Slab',Sans-serif;
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+	font-style: italic;
+	text-transform: capitalize;
+}
+
+h3 {
+	font-family: 'Lato',Sans-serif;
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+h4 {
+	font-family: 'Lato',Sans-serif;
+	font-size: 14px;
+	color: black;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+p{
+	font-family: 'Lato',Sans-serif;
+	font-size: 14px;
+	color: black;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+input[type=radio],[type=checkbox] {
+	width: 15px;
+	height: 15px;
+	margin-left: 10px;
+}
+
+label {
+	padding: 5px;
+	font-family: 'Lato', Sans-serif;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+
+select {
+	display: block;
+	width:180px;
+	padding: 7px;
+	border: none;
+	font-family: 'Lato', Sans-serif;
+	font-size: 14px;
+	border-bottom: solid 1px #ccc;
+	text-transform: capitalize;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+	border-radius: 26px;
+    background: #27a5e1;
+    font-weight: normal;
+    color: #555555;
+}
+
+.ui-widget.ui-widget-content {
+    border: 1px solid #d3d3d3;
+	border-radius: 5px;
+}
+
+#head-wrapper {
+	display: box;
+	width: 500px;
+	height: 200px;
+	margin-left: 200px;
+	border-radius: 20px;
+	background-color: #27A5E1;
+}
+
+#form-wrapper {
+	display: box;
+	width: 800px;
+	border-radius: 20px;
+	border: solid 1px #DADDDF;
+	position: absolute;
+	top: 180px;
+	left: 350px;
+	background-color: #FBFBFB;
+}
+
+#text-wrapper {
+	display: box;
+	width: 600px;
+	margin: 20px auto;
+}
+
+/* Styling the sliders */
+
+#esstslider {
+	display: block;
+	width: 250px;
+	margin-top: 16px;
+	float: left;
+}
+
+#esstdisp {
+	display: block;
+	margin-left: 60px;
+	margin-right: 20px;
+	margin-top: 16px;
+	float: left;
+	width: 20px;
+	overflow: hidden;
+}
+
+#nav {
+	display: block;
+	height: 50px;
+	background-color:#3B515B ;
+}
+
+.lvlslider {
+	margin-left: 215px;
+	width: 250px;
+}
+
+.lvldisp {
+	display: block;
+	margin-left: 170px;
+	width: 350px;
+	overflow: hidden;
+}
+
+.lvldisp p{
+	display: block;
+	width: 28%;
+	text-align: center;
+	margin-left: 14px;
+	overflow: hidden;
+	float:left;
+}
+
+.lvloneslider {
+	margin-left: 215px;
+	width: 250px;
+}
+
+.lvlonedisp {
+	display: block;
+	margin-left: 170px;
+	width: 350px;
+	overflow: hidden;
+}
+
+.lvlonedisp p{
+	display: block;
+	width: 28%;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 14px;
+	overflow: hidden;
+	float: left;
+}
+
+/* setting the layout and styling the div blocks */
+
+#essteamsize {
+	display: block;
+	overflow: hidden;
+}
+
+#essteamsize h3 {
+	display: block;
+	width: 150px;
+	float: left;
+	overflow: hidden;
+}
+
+#ttesting,
+#tframework
+ {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+#midstaticcodeanalysis,
+#specschedule,
+#specremote,
+#specpto,
+#eqcomputer,
+#essemployment,
+#esscompanysize,
+#midversioncontrol,
+#midissuetracker,
+#midbuildserver
+ {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+
+#tcss3,
+#thtml5,
+#tjavascript,
+#tnode,
+#trest,
+#tuiux,
+#tdesign,
+#tboardgames
+ {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+#midstaticcodeanalysis h3,
+#specschedule h3,
+#specremote h3,
+#specpto h3,
+#eqcomputer h3,
+#essemployment h3,
+#esscompanysize h3,
+#midversioncontrol h3,
+#midissuetracker h3,
+#midbuildserver h3
+ {
+	display: block;
+	width: 150px;
+	float: left;
+	overflow: hidden;
+}
+
+
+#tcss3 h3,
+#thtml5 h3,
+#tjavascript h3,
+#tnode h3,
+#trest h3,
+#tuiux h3,
+#tdesign h3,
+#tboardgames h3
+ {
+	display: block;
+	margin-top: 30px;
+	width: 150px;
+	float: left;
+	overflow: hidden;
+}
+
+#ttesting h4,
+#tframework h4
+ {
+	display: block;
+	clear: both;
+	width: 150px;
+	margin-top: 50px;
+	overflow: hidden;
+	float: left;
+}
+
+/* setting the layout and styling the selection blocks */
+
+#codeasys {
+	display: block;
+	margin-top: 15px;
+	margin-left: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+
+#specsel {
+	display: block;
+	margin-top: 15px;
+	margin-left: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+
+#remsel {
+	display: block;
+	margin-top: 15px;
+	margin-left: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+
+#ptosel {
+	display: block;
+	margin-top: 15px;
+	margin-left: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+
+#mcsel {
+	display: block;
+	margin-top: 15px;
+	margin-left: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+
+#emptsel {
+	display: block;
+	margin-top: 5px;
+	margin-left: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+
+#compsel {
+	display: block;
+	margin-top: 5px;
+	margin-left: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+
+#versel {
+	display: block;
+	margin-top: 5px;
+	margin-left: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+
+#isel {
+	display: block;
+	margin-top: 5px;
+	margin-left: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+
+#bssel {
+	display: block;
+	margin-top: 5px;
+	margin-left: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+
+#esslocations,
+#essstartdate,
+#midcodereviews,
+#midprototyping,
+#midfailfast,
+#midunittests,
+#midintegrationtests,
+#midstandups,
+#midquickstart,
+#midcommitondayone,
+#specworkload,
+#specworkweek,
+#pnewfeatures,
+#pclientsupport,
+#pdocumentation,
+#pmaintenance,
+#pmeetings,
+#eqoperatingsystem
+ {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+#esslocations h3,
+#essstartdate h3,
+#midcodereviews h3,
+#midprototyping h3,
+#midfailfast h3,
+#midunittests h3,
+#midintegrationtests h3,
+#midstandups h3,
+#midquickstart h3,
+#midcommitondayone h3,
+#specworkload h3,
+#specworkweek h3,
+#pnewfeatures h3,
+#pclientsupport h3,
+#pdocumentation h3,
+#pmaintenance h3,
+#pmeetings h3,
+#eqoperatingsystem h3
+ {
+	display: block;
+	width: 150px;
+	float: left;
+	overflow: hidden;
+}
+
+#esslocations p,
+#essstartdate p,
+#midcodereviews p,
+#midprototyping p,
+#midfailfast p,
+#midunittests p,
+#midintegrationtests p,
+#midstandups p,
+#midquickstart p,
+#midcommitondayone p,
+#specworkload p,
+#specworkweek p,
+#pnewfeatures p,
+#pclientsupport p,
+#pdocumentation p,
+#pmaintenance p,
+#pmeetings p,
+#eqoperatingsystem p
+ {
+	display: block;
+	width: 250px;
+	margin-top: 15px;
+	margin-left: 210px;
+	overflow: hidden;
+}
+
+#idheadline {
+	display:block;
+	width: 300px;
+	text-align: left;
+}
+
+#idheadline h2 {
+	font-family: 'HP simplified',Sans-serif;
+	font-size:48px;
+	color: white;
+	text-decoration: none;
+}
+
+/* Stying the hover states for the headings */
+
+#idessentials h2,
+#idmethodology h2,
+#idspecs h2,
+#idprofile h2,
+#idequipment h2,
+#idtech h2,
+#idother h2
+ {
+	border-bottom: solid 2px #FFDD00;
+	width: 150px;
+	height: 30px;
+}
+
+#idessentials h2:hover,
+#idmethodology h2:hover,
+#idspecs h2:hover,
+#idprofile h2:hover,
+#idequipment h2:hover,
+#idtech h2:hover,
+#idother h2:hover
+ {
+	transition: 1s;
+	background-image: linear-gradient(180deg,transparent 65%,#FFDD00 0);
+	width: 150px;
+	height: 30px;
+}
+
+#idother p
+ {
+	 display: block;
+	 clear: both;
+}
